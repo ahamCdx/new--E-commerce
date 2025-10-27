@@ -1,0 +1,312 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    background-color: whitesmoke;
+}
+nav,main{
+    max-width: 1440px;
+    width: 100%;
+    min-width: 400px;
+    margin: auto;
+}
+footer{
+    min-width: 300px;
+}
+
+.aTab{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#allPrd{
+    text-align: center;
+}
+#back-img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid;
+    height: 400px;
+    background: url('https://t4.ftcdn.net/jpg/05/96/62/65/360_F_596626503_jrzjZNYStDexiWxQFqO7oCh6M8PdMlJs.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+@media (min-width:1081px) {
+    #nav-panel{
+        width: 100%;
+        background-color: black;
+        height: 25px
+    }
+    #search-bar{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
+    #bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: mintcream;
+    }
+    #bar>div{
+        margin: 5px;
+        padding: 5px;
+    }
+    #nav-tab{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #search-box{
+        display: flex;
+        align-items: center;
+        width: 28%;
+        background-color: rgb(228, 226, 226);
+        border-radius: 5px;
+    }
+    #search-box>input{
+        width: 98%;
+        height: 25px;
+        font-size: 17px;
+        background-color: rgb(228, 226, 226);
+        border: none;
+    }
+    #search-box>input:focus{
+        outline: none;
+    }
+    #search-box:hover{
+        border-bottom: 1px solid rgb(128, 0, 60)
+    }
+    #search-box>span{
+        border-right: 1px solid;
+        margin-right: 5px
+    }
+    #nav-aaCart{
+        display: flex;
+        gap: 60px;
+    }
+    #nav-aaCart>a{
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+@media (max-width:1080px) {
+    #nav-panel{
+        width: 100%;
+        background-color: black;
+        height: 15px
+    }
+    #bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: mintcream;
+    }
+    #nav-tab{
+        display: none;
+    }
+    #search-box{
+        display: none;
+    }
+    #bar>div{
+        margin: 5px;
+        padding: 5px;
+    }
+    #nav-aaCart{
+        display: flex;
+        gap: 40px;
+    }
+    #nav-aaCart>a{
+        display: flex;
+        align-items: center;
+    }
+    #search-bar{
+        display: flex;
+        align-items: center;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(228, 226, 226);
+        margin-top: 5px;
+    }
+    #search-bar:hover{
+        border-bottom: 1px solid rgb(128, 0, 60)
+    }
+    #search-bar>input{
+        width: 98%;
+        border: none;
+        font-size: 16px;
+        background-color: rgb(228, 226, 226);
+    }
+    #search-bar>input:focus{
+        outline: none;
+    }
+    #search-bar>span{
+        border-right: 1px solid;
+        margin-right: 5px
+    }
+}
+
+@media (max-width:500px) {
+    #container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap : 20px;
+        background-color: rgb(250, 232, 221);
+        margin: 10px;
+        padding: 10px;
+    }
+    #container>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 5px;
+    }
+    #container>div>img{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+
+
+@media (min-width:501px) {
+    #container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap : 20px;
+        background-color: rgb(250, 232, 221);
+        margin: 10px;
+        padding: 10px;
+    }
+    #container>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 5px;
+    }
+    #container>div>img{
+        width: 100%;
+        height: 250px;
+    }
+}
+
+
+@media (min-width:601px) {
+    #container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap : 20px;
+        background-color: rgb(250, 232, 221);
+        margin: 10px;
+        padding: 10px;
+    }
+    #container>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 5px;
+    }
+    #container>div>img{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+
+@media (min-width:701px) {
+    #container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap : 20px;
+        background-color: rgb(250, 232, 221);
+        margin: 10px;
+        padding: 10px;
+    }
+    #container>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 5px;
+    }
+    #container>div>img{
+        width: 100%;
+        height: 350px;
+    }
+}
+
+@media (min-width:801px) {
+    #container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap : 20px;
+        background-color: rgb(250, 232, 221);
+        margin: 10px;
+        padding: 10px;
+    }
+    #container>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 5px;
+    }
+    #container>div>img{
+        width: 100%;
+        height: 450px;
+    }
+}
+
+@media (min-width:901px) {
+    #container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap : 20px;
+        background-color: rgb(250, 232, 221);
+        margin: 10px;
+        padding: 10px;
+    }
+    #container>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 5px;
+    }
+    #container>div>img{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (min-width:1080px) {
+    #container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap : 20px;
+        background-color: rgb(250, 232, 221);
+        margin: 10px;
+        padding: 10px;
+    }
+    #container>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 5px;
+    }
+    #container>div>img{
+        width: 100%;
+        height: 370px;
+    }
+}
