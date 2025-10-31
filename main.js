@@ -26,5 +26,29 @@ async function showProduct() {
         console.log(error)
     }
 }
-
 showProduct()
+
+
+
+let men = document.getElementById('mensWear')
+    men.addEventListener('click', ()=>{
+        window.location.href="mens.html"
+ })
+
+
+ let women = document.getElementById('WomensWear')
+    women.addEventListener('click', ()=>{
+        window.location.href="womens.html"
+ })
+
+
+  let electronic = document.getElementById('Electronics')
+    electronic.addEventListener('click', ()=>{
+        window.location.href="electronics.html"
+ })
+
+
+  let jewelry = document.getElementById('Jewelry')
+    jewelry.addEventListener('click', ()=>{
+        window.location.href="jwelery.html"
+ })
