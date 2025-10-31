@@ -424,3 +424,20 @@ footer>p{
   cursor: pointer;
   pointer-events: auto;
 }
+
+
+#nav-panel {
+  position: relative; /* ensures it doesn't overlay */
+  z-index: 1;
+}
+
+#container {
+  position: relative;
+  z-index: 10; /* ensures your product images are on top */
+}
+
+img {
+  pointer-events: auto;
+  touch-action: manipulation;
+  cursor: pointer;
+}
