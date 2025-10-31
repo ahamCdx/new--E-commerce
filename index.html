@@ -6,6 +6,7 @@
   <title>Naykaa Fashion</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <script src="main.js"></script>
 </head>
 <body>
   <header>
@@ -13,7 +14,7 @@
     <nav>
       <div id="nav-bar">
         <div id="bar">
-          <div id="menu">
+          <div id="menu" onclick="menuOpen()" >
             <span class="material-symbols-outlined">menu</span>
           </div>
           <div id="logo">
@@ -34,6 +35,12 @@
             <a class="aTab" id="cart" href=""> <span class="material-symbols-outlined">shopping_cart</span> Cart</a>
           </div>
         </div>
+        <diV id="menuBar">
+            <a class="aTab" href="">Mens</a>
+            <a class="aTab" href="">Womens</a>
+            <a class="aTab" href="">Electronics</a>
+            <a class="aTab" href="">Jewelry</a>
+        </diV>
         <div id="search-bar">
             <span class="material-symbols-outlined">search</span>
             <input type="text" id="searchInput" placeholder="Search For Products">
@@ -70,6 +77,3 @@
   <footer></footer>
 </body>
 </html>
-
-
-
