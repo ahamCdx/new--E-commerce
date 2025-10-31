@@ -418,3 +418,9 @@ footer>p{
     text-align: center;
     padding: 10px;
 }
+
+
+#mensWear, #WomensWear, #Electronics, #Jewelry {
+  cursor: pointer;
+  pointer-events: auto;
+}
