@@ -23,7 +23,7 @@ async function showProduct() {
             div.appendChild(box)
         })
     } catch (error) {
-        
+        console.log(error)
     }
 }
 
