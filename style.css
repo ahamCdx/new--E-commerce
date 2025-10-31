@@ -425,6 +425,12 @@ footer>p{
   pointer-events: auto;
 }
 
+#nav-panel {
+  width: 100%;
+  background-color: black;
+  height: 15px;
+}
+
 
 #nav-panel {
   position: relative; /* ensures it doesn't overlay */

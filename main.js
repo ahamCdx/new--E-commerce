@@ -52,3 +52,10 @@ let men = document.getElementById('mensWear')
     jewelry.addEventListener('click', ()=>{
         window.location.href="jwelery.html"
  })
+
+
+ document.addEventListener("DOMContentLoaded", () => {
+  document.querySelector('#mensWear img').addEventListener('click', () => {
+    window.location.href = "mens.html";
+  });
+});
