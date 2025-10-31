@@ -12,7 +12,8 @@ nav,main{
     margin: auto;
 }
 footer{
-    min-width: 300px;
+    min-width: 400px;
+    background-color: black;
 }
 
 .aTab{
@@ -386,4 +387,34 @@ footer{
         width: 100%;
         height: 370px;
     }
+}
+
+
+#footpart{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: black;
+    gap: 20px;
+    border-bottom: 1px solid hsl(0, 0%, 50%);
+    
+}
+#footpart>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-right: 1px solid gray;
+}
+.aFoot{
+    text-decoration: none;
+    color: gray;
+}
+#footLogo{
+    text-align: center;
+    padding: 20px;
+}
+footer>p{
+    color: gray;
+    text-align: center;
+    padding: 10px;
 }
